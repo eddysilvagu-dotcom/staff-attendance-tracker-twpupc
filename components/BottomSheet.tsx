@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from 'react';
 import {
   View,
@@ -218,7 +219,7 @@ const styles = StyleSheet.create({
   },
   bottomSheet: {
     height: SNAP_POINTS.FULL,
-    backgroundColor: colors.background || '#ffffff',
+    backgroundColor: colors.backgroundAlt,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     shadowColor: '#000',
@@ -233,7 +234,7 @@ const styles = StyleSheet.create({
   handle: {
     width: 40,
     height: 4,
-    backgroundColor: colors.grey || '#cccccc',
+    backgroundColor: colors.grey,
     borderRadius: 2,
     alignSelf: 'center',
     marginTop: 8,
